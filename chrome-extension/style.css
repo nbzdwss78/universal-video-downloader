@@ -1,0 +1,137 @@
+body {
+    font-family: "Microsoft Yahei", sans-serif;
+    background: #f6f7fb;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.title {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.info-row {
+    margin: 10px 0;
+    display: flex;
+}
+
+.label {
+    width: 80px;
+    color: #555;
+    font-weight: bold;
+}
+
+.value {
+    flex: 1;
+    color: #0070f3;
+    word-wrap: break-word;
+}
+
+.primary-btn {
+    width: 100%;
+    padding: 12px 0;
+    margin: 15px 0;
+    border: none;
+    border-radius: 6px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.primary-btn:hover {
+    background: #0056d2;
+}
+
+.task-box {
+    background: #f0f2f5;
+    padding: 10px;
+    border-radius: 8px;
+    max-height: 300px;
+    overflow-y: auto;
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    white-space: pre-wrap;
+}
+
+
+/* popup 专用布局 */
+.popup-container {
+    width: 260px;
+    padding: 0;
+    margin: 0;
+}
+
+.popup-card {
+    padding: 18px;
+    box-shadow: none;
+}
+
+/* 主按钮 - 蓝色 */
+.primary-btn {
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #007bff;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.primary-btn:hover {
+    background: #005bd1;
+}
+
+/* 次按钮 - 深灰 */
+.secondary-btn {
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #4e5969;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.secondary-btn:hover {
+    background: #3a434e;
+}
+
+/* 轻按钮 - 无背景 */
+.ghost-btn {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    background: white;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.ghost-btn:hover {
+    background: #f3f3f3;
+}

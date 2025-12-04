@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>下载管理器</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="container">
+
+    <div class="card">
+        <h2 class="title">下载任务</h2>
+
+        <div class="info-row">
+            <span class="label">URL：</span>
+            <span id="videoUrl" class="value">等待接收...</span>
+        </div>
+
+        <div class="info-row">
+            <span class="label">类型：</span>
+            <span id="mode" class="value">video</span>
+        </div>
+
+        <button id="downloadBtn" class="primary-btn">
+            ▶ 开始下载
+        </button>
+
+        <h3>任务信息</h3>
+        <pre id="taskInfo" class="task-box">暂无任务</pre>
+    </div>
+
+    <script src="download.js"></script>
+
+</body>
+</html>
